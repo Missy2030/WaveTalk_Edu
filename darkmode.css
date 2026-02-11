@@ -1,0 +1,130 @@
+:root {
+    --primary: #5b1985; 
+    --accent: #5a98b4;  
+    --light-bg: #161d248c;
+    --dark-bg: #03252977;
+    --dark-card: #0807163f;
+    --light-text: #f0f0f0;
+    --soft-border: rgba(17, 88, 71, 0.1);
+  }
+  .dark-toggle {
+    position: fixed;
+    top: -5px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #ffffffaa;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dark-toggle:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  /* Dark mode global */
+  body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid var(--soft-border);
+  }
+  
+  body.dark-mode .navbar a.nav-link,
+  body.dark-mode .navbar-brand {
+    color: var(--primary) !important;
+  }
+  
+  body.dark-mode header {
+    background-color: #222;
+    color: var(--light-text);
+  }
+  
+  body.dark-mode header .btn {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+  }
+  
+  body.dark-mode .category-card {
+    background-color: var(--dark-card);
+    color: var(--light-text);
+    border: 1px solid var(--soft-border);
+  }
+  
+  body.dark-mode .category-card .card-icon {
+    color: var(--accent);
+  }
+  
+  body.dark-mode .btn-outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  body.dark-mode .btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  body.dark-mode .btn-primary {
+    background-color: var(--primary);
+    border: none;
+  }
+  
+  body.dark-mode .btn-light {
+    background-color: var(--accent);
+    color: #121212;
+    border: none;
+  }
+  
+  body.dark-mode section.bg-light,
+  body.dark-mode .accordion-button {
+    background-color: var(--dark-card) !important;
+    color: var(--light-text) !important;
+  }
+  
+  body.dark-mode .accordion-body {
+    background-color: var(--dark-bg);
+    color: var(--primary);
+  }
+  
+  body.dark-mode input,
+  body.dark-mode textarea {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid var(--soft-border);
+  }
+  
+  body.dark-mode .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  body.dark-mode .dropdown-menu {
+    background-color: var(--dark-card);
+    color: var(--light-text);
+  }
+  
+  body.dark-mode .dropdown-item:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  body.dark-mode .card {
+    background-color: var(--dark-card);
+    color: var(--light-text);
+  }
+  
+  body.dark-mode .accordion-button:not(.collapsed) {
+    background-color: var(--primary);
+    color: #fff;
+  }
+  

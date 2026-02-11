@@ -1,0 +1,676 @@
+.:
+total 168
+drwxrwxr-x 13 serena serena  4096 Feb  5 12:45 .
+drwxr-xr-x 27 serena serena  4096 Feb  5 09:45 ..
+drwxrwxr-x  7 serena serena  4096 Feb  5 12:38 .git
+-rw-r--r--  1 serena serena   353 Feb  2 22:10 .gitignore
+-rw-rw-r--  1 serena serena   310 Jan 30 11:51 .hintrc
+-rw-r--r--  1 serena serena  1080 Feb  2 22:09 .htaccess
+-rw-rw-r--  1 serena serena   650 Jan 29 00:09 .wavetalk_config.ini
+-rw-rw-r--  1 serena serena  2245 Feb  2 22:10 README.md
+-rw-rw-r--  1 serena serena 28890 Feb  2 10:36 Structure.txt
+-rw-r--r--  1 serena serena   570 Jun 20  2025 add_favorite.php
+drwxrwxr-x  5 serena serena  4096 Jan 28 17:51 app
+-rw-r--r--  1 serena serena     0 Mar 28  2025 app.js
+-rw-rw-r--  1 serena serena     0 Jan 28 23:59 composer.json
+drwxrwxr-x  2 serena serena  4096 Jan 28 23:50 config
+-rw-rw-r--  1 serena serena     0 Jul 15  2025 contact.php
+-rw-rw-r--  1 serena serena  1601 Jan 30 18:01 create_simple_icons.php
+-rw-rw-r--  1 serena serena   766 Aug  4  2025 darkmode-toggle.js
+-rw-rw-r--  1 serena serena  2837 Aug  4  2025 darkmode.css
+drwxrwxr-x  3 serena serena  4096 Feb  1 17:08 includes
+-rw-r--r--  1 serena serena   133 Apr 28  2025 logout.php
+drwxrwxr-x  2 serena serena  4096 Jan 28 23:51 logs
+-rw-rw-r--  1 serena serena     0 Jan 29 00:00 package.json
+drwxrwxr-x  2 serena serena  4096 Jan 30 01:52 private
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 public
+-rw-rw-r--  1 serena serena     0 Jan 29 00:00 robots.txt
+drwxrwxr-x  2 serena serena  4096 Jan 28 23:49 school
+-rw-r--r--  1 serena serena   730 Mar 30  2025 script.js
+drwxrwxr-x  2 serena serena  4096 Jan 30 17:55 scripts
+-rw-r--r--  1 serena serena  1909 Jun 20  2025 search.php
+-rw-r--r--  1 serena serena  1969 Jul 15  2025 send_email.php
+-rw-r--r--  1 serena serena   531 Apr  7  2025 statistics.php
+-rw-rw-r--  1 serena serena     0 Feb  5 12:45 structure_du_dossier.txt
+-rw-r--r--  1 serena serena 12610 Aug  4  2025 style.css
+drwxrwxr-x  4 serena serena  4096 Jan 28 23:51 tests
+-rw-r--r--  1 serena serena  1436 Aug  4  2025 thankyou.php
+-rw-rw-r--  1 serena serena  1135 Jun 19  2025 update_account.php
+-rw-rw-r--  1 serena serena  1158 Jul 15  2025 update_preferences.php
+drwxrwxr-x  2 serena serena  4096 Jan 28 23:49 vendor
+
+./.git:
+total 44
+drwxrwxr-x  7 serena serena 4096 Feb  5 12:38 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena   21 Jul  7  2025 HEAD
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 branches
+-rw-rw-r--  1 serena serena  153 Feb  5 12:38 config
+-rw-rw-r--  1 serena serena   73 Jul  7  2025 description
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 hooks
+-rw-rw-r--  1 serena serena 2986 Jul  7  2025 index
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 info
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 objects
+drwxrwxr-x  4 serena serena 4096 Jul  7  2025 refs
+
+./.git/branches:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 7 serena serena 4096 Feb  5 12:38 ..
+
+./.git/hooks:
+total 72
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 7 serena serena 4096 Feb  5 12:38 ..
+-rwxrwxr-x 1 serena serena  478 Jul  7  2025 applypatch-msg.sample
+-rwxrwxr-x 1 serena serena  896 Jul  7  2025 commit-msg.sample
+-rwxrwxr-x 1 serena serena 4726 Jul  7  2025 fsmonitor-watchman.sample
+-rwxrwxr-x 1 serena serena  189 Jul  7  2025 post-update.sample
+-rwxrwxr-x 1 serena serena  424 Jul  7  2025 pre-applypatch.sample
+-rwxrwxr-x 1 serena serena 1649 Jul  7  2025 pre-commit.sample
+-rwxrwxr-x 1 serena serena  416 Jul  7  2025 pre-merge-commit.sample
+-rwxrwxr-x 1 serena serena 1374 Jul  7  2025 pre-push.sample
+-rwxrwxr-x 1 serena serena 4898 Jul  7  2025 pre-rebase.sample
+-rwxrwxr-x 1 serena serena  544 Jul  7  2025 pre-receive.sample
+-rwxrwxr-x 1 serena serena 1492 Jul  7  2025 prepare-commit-msg.sample
+-rwxrwxr-x 1 serena serena 2783 Jul  7  2025 push-to-checkout.sample
+-rwxrwxr-x 1 serena serena 2308 Jul  7  2025 sendemail-validate.sample
+-rwxrwxr-x 1 serena serena 3650 Jul  7  2025 update.sample
+
+./.git/info:
+total 12
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 7 serena serena 4096 Feb  5 12:38 ..
+-rw-rw-r-- 1 serena serena  240 Jul  7  2025 exclude
+
+./.git/objects:
+total 136
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 .
+drwxrwxr-x  7 serena serena 4096 Feb  5 12:38 ..
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 07
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 0b
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 19
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 1a
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 24
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 27
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 29
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 30
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 35
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 3b
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 3d
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 40
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 46
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 52
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 58
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 65
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 69
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 6b
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 6e
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 74
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 a0
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 a7
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 ad
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 c3
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 cb
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 cc
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 d5
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 e0
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 e6
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 e8
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 info
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 pack
+
+./.git/objects/07:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  335 Jul  7  2025 2365a392fd95442cb67df43cb207e315e50760
+
+./.git/objects/0b:
+total 16
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 7719 Jul  7  2025 dfc1f35bfb681722fe1e65ef747c7cc7cb0fc1
+
+./.git/objects/19:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 1240 Jul  7  2025 9923474ac5d9ed081f1b89ecbcbcab1bc0eff6
+
+./.git/objects/1a:
+total 44
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 32799 Jul  7  2025 d8bc994b37e8cc5960c3c929ea0d51c69f3e9c
+
+./.git/objects/24:
+total 32
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena   900 Jul  7  2025 4e060b2f9e0bd42e87e2de028dc0449671b7e0
+-r--r--r--  1 serena serena 16696 Jul  7  2025 53a01d8f889a37b987446ff907ea199bc579c6
+
+./.git/objects/27:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  869 Jul  7  2025 e761ef22df84567a93e7aa3b01dae9f8ca4154
+
+./.git/objects/29:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  413 Jul  7  2025 51182cd1549d81ffb759c1925e78ec24f5d24e
+
+./.git/objects/30:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  755 Jul  7  2025 7bb0de6c8f194cb9ffc8456e90eed019717166
+
+./.git/objects/35:
+total 36
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 25083 Jul  7  2025 ad8c45e01b04f5689d64f26df51cec20fbcf4e
+
+./.git/objects/3b:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  735 Jul  7  2025 31d49bbb81532fe3f4abbab4fd2e796385ddf7
+
+./.git/objects/3d:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  390 Jul  7  2025 b69bc8d67729961b74537e20147b120ddbf7b6
+
+./.git/objects/40:
+total 632
+drwxrwxr-x  2 serena serena   4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena   4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena    244 Jul  7  2025 576ff2c71bff0a6b52f093127a7d88f4fe37ba
+-r--r--r--  1 serena serena 631634 Jul  7  2025 b382216a68e4b9ac431c7d81cc9e8fd4733c56
+
+./.git/objects/46:
+total 72
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 62608 Jul  7  2025 56881f7b1e5df78d33ceaef491151c92206a13
+
+./.git/objects/52:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  381 Jul  7  2025 3b96a9e1974fd472823dd48059ab1df6376fc1
+
+./.git/objects/58:
+total 56
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 46270 Jul  7  2025 1611b7331e7cd991c3332283ef6bf44382e2a4
+
+./.git/objects/65:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  485 Jul  7  2025 739f68139e3de5643392676f7355dac00eee4a
+
+./.git/objects/69:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  622 Jul  7  2025 58260a7c46c1fc91ba47175a3201d7098e0a81
+
+./.git/objects/6b:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 2904 Jul  7  2025 0f3813bada4f9cd221001e17bc3c5754135fdd
+
+./.git/objects/6e:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  566 Jul  7  2025 758a547209297840c9310357234b08bce6d29e
+
+./.git/objects/74:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  129 Jul  7  2025 473f348961e3ae92ab7c0236f5adcb3152fcb9
+
+./.git/objects/a0:
+total 60
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 51305 Jul  7  2025 b32381a36a2381ce6eadec3f4590efc16ad83e
+
+./.git/objects/a7:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 1090 Jul  7  2025 5b7804407ebfb0d80a4b66831b060d5abd52c8
+
+./.git/objects/ad:
+total 260
+drwxrwxr-x  2 serena serena   4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena   4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 256657 Jul  7  2025 29e606064bc123ae10f86dbd3ab22a0d36dc73
+
+./.git/objects/c3:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  461 Jul  7  2025 c7fad8ef4c709beba2778bbc677d2f2df27b7b
+
+./.git/objects/cb:
+total 104
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 95183 Jul  7  2025 923aadb8f4e56472ba83793af4d5da039c1ea5
+
+./.git/objects/cc:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  954 Jul  7  2025 92200e3c244e18809708eda41d89c9bd9757aa
+
+./.git/objects/d5:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena   26 Jul  7  2025 2e82202962722d81c47499e658aa736052c158
+
+./.git/objects/e0:
+total 32
+drwxrwxr-x  2 serena serena  4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena  4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena 24544 Jul  7  2025 fd5a1175657007f1341d0d751875c8760ece8e
+
+./.git/objects/e6:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena   15 Jul  7  2025 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+./.git/objects/e8:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+-r--r--r--  1 serena serena  470 Jul  7  2025 7f9677072f21e0bb32fb983d696d161e86c65b
+
+./.git/objects/info:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+
+./.git/objects/pack:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 34 serena serena 4096 Feb  5 12:36 ..
+
+./.git/refs:
+total 16
+drwxrwxr-x 4 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 7 serena serena 4096 Feb  5 12:38 ..
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 heads
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 tags
+
+./.git/refs/heads:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 4 serena serena 4096 Jul  7  2025 ..
+
+./.git/refs/tags:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jul  7  2025 .
+drwxrwxr-x 4 serena serena 4096 Jul  7  2025 ..
+
+./app:
+total 20
+drwxrwxr-x  5 serena serena 4096 Jan 28 17:51 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:45 controllers
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:47 models
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:52 services
+
+./app/controllers:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:45 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:51 ..
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:45 CourseController.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:45 SchoolController.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:45 UserController.php
+
+./app/models:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:47 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:51 ..
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:46 Course.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:47 Progress.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:47 Quiz.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:46 User.php
+
+./app/services:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:52 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:51 ..
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:52 AnalyticsService.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:52 AudioProcessor.php
+-rw-rw-r-- 1 serena serena    0 Jan 28 17:52 LicenseValidator.php
+
+./config:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:50 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 23:50 constants.php
+-rw-rw-r--  1 serena serena    0 Jan 28 23:50 database.php
+-rw-rw-r--  1 serena serena    0 Jan 28 23:50 routes.php
+
+./includes:
+total 28
+drwxrwxr-x  3 serena serena 4096 Feb  1 17:08 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+drwxrwxr-x  4 serena serena 4096 Feb  1 17:08 PHPMailer
+-rw-rw-r--  1 serena serena 8696 Feb  2 11:51 account_switcher.php
+-rw-rw-r--  1 serena serena  871 Feb  1 17:06 switch_indicator.php
+
+./includes/PHPMailer:
+total 100
+drwxrwxr-x 4 serena serena  4096 Feb  1 17:08 .
+drwxrwxr-x 3 serena serena  4096 Feb  1 17:08 ..
+-rw-rw-r-- 1 serena serena  2092 Jun 18  2025 COMMITMENT
+-rw-rw-r-- 1 serena serena 26529 Jun 18  2025 LICENSE
+-rw-rw-r-- 1 serena serena 16832 Jun 18  2025 README.md
+-rw-rw-r-- 1 serena serena  7585 Jun 18  2025 SECURITY.md
+-rw-rw-r-- 1 serena serena  5915 Jun 18  2025 SMTPUTF8.md
+-rw-rw-r-- 1 serena serena     7 Jun 18  2025 VERSION
+-rw-rw-r-- 1 serena serena  2815 Jun 18  2025 composer.json
+-rw-rw-r-- 1 serena serena  6261 Jun 18  2025 get_oauth_token.php
+drwxrwxr-x 2 serena serena  4096 Jul 23  2025 language
+drwxrwxr-x 2 serena serena  4096 Jul 23  2025 src
+
+./includes/PHPMailer/language:
+total 236
+drwxrwxr-x 2 serena serena 4096 Jul 23  2025 .
+drwxrwxr-x 4 serena serena 4096 Feb  1 17:08 ..
+-rw-rw-r-- 1 serena serena 1584 Jun 18  2025 phpmailer.lang-af.php
+-rw-rw-r-- 1 serena serena 2024 Jun 18  2025 phpmailer.lang-ar.php
+-rw-rw-r-- 1 serena serena 3792 Jun 18  2025 phpmailer.lang-as.php
+-rw-rw-r-- 1 serena serena 1749 Jun 18  2025 phpmailer.lang-az.php
+-rw-rw-r-- 1 serena serena 1745 Jun 18  2025 phpmailer.lang-ba.php
+-rw-rw-r-- 1 serena serena 2178 Jun 18  2025 phpmailer.lang-be.php
+-rw-rw-r-- 1 serena serena 2196 Jun 18  2025 phpmailer.lang-bg.php
+-rw-rw-r-- 1 serena serena 3845 Jun 18  2025 phpmailer.lang-bn.php
+-rw-rw-r-- 1 serena serena 1730 Jun 18  2025 phpmailer.lang-ca.php
+-rw-rw-r-- 1 serena serena 1798 Jun 18  2025 phpmailer.lang-cs.php
+-rw-rw-r-- 1 serena serena 2409 Jun 18  2025 phpmailer.lang-da.php
+-rw-rw-r-- 1 serena serena 1886 Jun 18  2025 phpmailer.lang-de.php
+-rw-rw-r-- 1 serena serena 3307 Jun 18  2025 phpmailer.lang-el.php
+-rw-rw-r-- 1 serena serena 1665 Jun 18  2025 phpmailer.lang-eo.php
+-rw-rw-r-- 1 serena serena 2588 Jun 18  2025 phpmailer.lang-es.php
+-rw-rw-r-- 1 serena serena 1744 Jun 18  2025 phpmailer.lang-et.php
+-rw-rw-r-- 1 serena serena 2079 Jun 18  2025 phpmailer.lang-fa.php
+-rw-rw-r-- 1 serena serena 1659 Jun 18  2025 phpmailer.lang-fi.php
+-rw-rw-r-- 1 serena serena 1637 Jun 18  2025 phpmailer.lang-fo.php
+-rw-rw-r-- 1 serena serena 2732 Jun 18  2025 phpmailer.lang-fr.php
+-rw-rw-r-- 1 serena serena 1742 Jun 18  2025 phpmailer.lang-gl.php
+-rw-rw-r-- 1 serena serena 1812 Jun 18  2025 phpmailer.lang-he.php
+-rw-rw-r-- 1 serena serena 3768 Jun 18  2025 phpmailer.lang-hi.php
+-rw-rw-r-- 1 serena serena 1754 Jun 18  2025 phpmailer.lang-hr.php
+-rw-rw-r-- 1 serena serena 1717 Jun 18  2025 phpmailer.lang-hu.php
+-rw-rw-r-- 1 serena serena 2185 Jun 18  2025 phpmailer.lang-hy.php
+-rw-rw-r-- 1 serena serena 1997 Jun 18  2025 phpmailer.lang-id.php
+-rw-rw-r-- 1 serena serena 1819 Jun 18  2025 phpmailer.lang-it.php
+-rw-rw-r-- 1 serena serena 2934 Jun 18  2025 phpmailer.lang-ja.php
+-rw-rw-r-- 1 serena serena 2884 Jun 18  2025 phpmailer.lang-ka.php
+-rw-rw-r-- 1 serena serena 1771 Jun 18  2025 phpmailer.lang-ko.php
+-rw-rw-r-- 1 serena serena 2238 Jun 18  2025 phpmailer.lang-ku.php
+-rw-rw-r-- 1 serena serena 1627 Jun 18  2025 phpmailer.lang-lt.php
+-rw-rw-r-- 1 serena serena 1643 Jun 18  2025 phpmailer.lang-lv.php
+-rw-rw-r-- 1 serena serena 1782 Jun 18  2025 phpmailer.lang-mg.php
+-rw-rw-r-- 1 serena serena 2186 Jun 18  2025 phpmailer.lang-mn.php
+-rw-rw-r-- 1 serena serena 1734 Jun 18  2025 phpmailer.lang-ms.php
+-rw-rw-r-- 1 serena serena 2288 Jun 18  2025 phpmailer.lang-nb.php
+-rw-rw-r-- 1 serena serena 2365 Jun 18  2025 phpmailer.lang-nl.php
+-rw-rw-r-- 1 serena serena 2635 Jun 18  2025 phpmailer.lang-pl.php
+-rw-rw-r-- 1 serena serena 2465 Jun 18  2025 phpmailer.lang-pt.php
+-rw-rw-r-- 1 serena serena 2719 Jun 18  2025 phpmailer.lang-pt_br.php
+-rw-rw-r-- 1 serena serena 2448 Jun 18  2025 phpmailer.lang-ro.php
+-rw-rw-r-- 1 serena serena 3297 Jun 18  2025 phpmailer.lang-ru.php
+-rw-rw-r-- 1 serena serena 3425 Jun 18  2025 phpmailer.lang-si.php
+-rw-rw-r-- 1 serena serena 1909 Jun 18  2025 phpmailer.lang-sk.php
+-rw-rw-r-- 1 serena serena 2577 Jun 18  2025 phpmailer.lang-sl.php
+-rw-rw-r-- 1 serena serena 2301 Jun 18  2025 phpmailer.lang-sr.php
+-rw-rw-r-- 1 serena serena 1814 Jun 18  2025 phpmailer.lang-sr_latn.php
+-rw-rw-r-- 1 serena serena 1610 Jun 18  2025 phpmailer.lang-sv.php
+-rw-rw-r-- 1 serena serena 1721 Jun 18  2025 phpmailer.lang-tl.php
+-rw-rw-r-- 1 serena serena 2606 Jun 18  2025 phpmailer.lang-tr.php
+-rw-rw-r-- 1 serena serena 2282 Jun 18  2025 phpmailer.lang-uk.php
+-rw-rw-r-- 1 serena serena 2265 Jun 18  2025 phpmailer.lang-ur.php
+-rw-rw-r-- 1 serena serena 1793 Jun 18  2025 phpmailer.lang-vi.php
+-rw-rw-r-- 1 serena serena 1669 Jun 18  2025 phpmailer.lang-zh.php
+-rw-rw-r-- 1 serena serena 2333 Jun 18  2025 phpmailer.lang-zh_cn.php
+
+./includes/PHPMailer/src:
+total 280
+drwxrwxr-x 2 serena serena   4096 Jul 23  2025 .
+drwxrwxr-x 4 serena serena   4096 Feb  1 17:08 ..
+-rw-rw-r-- 1 serena serena   6883 Jun 18  2025 DSNConfigurator.php
+-rw-rw-r-- 1 serena serena   1256 Jun 18  2025 Exception.php
+-rw-rw-r-- 1 serena serena   3791 Jun 18  2025 OAuth.php
+-rw-rw-r-- 1 serena serena   1538 Jun 18  2025 OAuthTokenProvider.php
+-rw-rw-r-- 1 serena serena 187910 Jun 18  2025 PHPMailer.php
+-rw-rw-r-- 1 serena serena  12352 Jun 18  2025 POP3.php
+-rw-rw-r-- 1 serena serena  51856 Jun 18  2025 SMTP.php
+
+./logs:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:51 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 23:51 app.log
+
+./private:
+total 16
+drwxrwxr-x  2 serena serena 4096 Jan 30 01:52 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena  105 Feb  2 10:58 .htaccess
+-rw-rw-r--  1 serena serena 1337 Feb  2 22:40 db_connection.php
+
+./public:
+total 216
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 .
+drwxrwxr-x 13 serena serena  4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena  2477 Feb  2 22:08 about.php
+drwxrwxr-x  2 serena serena  4096 Jan 28 17:57 admin
+drwxrwxr-x  2 serena serena  4096 Feb  5 10:25 api
+drwxrwxr-x  5 serena serena  4096 Jan 28 17:43 assets
+drwxrwxr-x  4 serena serena  4096 Feb  5 09:45 audio
+-rw-rw-r--  1 serena serena 11934 Feb  2 22:08 badges.php
+-rw-rw-r--  1 serena serena 15175 Feb  4 10:23 category.php
+drwxr-xr-x  2 serena serena  4096 Jan 30 13:36 certificates
+-rw-rw-r--  1 serena serena  8104 Feb  2 22:08 control_panel.php
+-rw-rw-r--  1 serena serena 21159 Feb  3 23:23 course.php
+drwxrwxr-x  2 serena serena  4096 Jan 29 00:22 css
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:58 includes
+-rw-rw-r--  1 serena serena 17436 Feb  2 22:08 index.php
+-rw-rw-r--  1 serena serena  8096 Jan 30 13:28 install.php
+drwxrwxr-x  2 serena serena  4096 Feb  1 17:10 js
+-rw-r--r--  1 serena serena 12132 Feb  2 22:08 login.php
+-rw-rw-r--  1 serena serena   480 Feb  2 01:07 logout.php
+-rw-rw-r--  1 serena serena  1160 Jan 30 18:02 manifest.json
+-rw-rw-r--  1 serena serena  3368 Jan 30 13:21 offline.php
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:08 parent
+-rw-r--r--  1 serena serena 24246 Feb  2 22:08 register.php
+-rw-rw-r--  1 serena serena  7242 Feb  3 11:42 service-worker.js
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:08 student
+-rw-rw-r--  1 serena serena  2660 Feb  2 23:00 switch_account.php
+drwxrwxr-x  2 serena serena  4096 Jan 28 17:59 teacher
+-rw-rw-r--  1 serena serena  8437 Jan 30 14:17 verify_certificate.php
+
+./public/admin:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:57 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 17:55 index.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:55 manage_courses.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:56 manage_schools.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:57 reports.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:57 view_progress.php
+
+./public/api:
+total 44
+drwxrwxr-x  2 serena serena 4096 Feb  5 10:25 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena 2615 Feb  3 23:24 download_audio.php
+-rw-rw-r--  1 serena serena 8127 Jan 30 17:14 generate_certificate.php
+-rw-rw-r--  1 serena serena 1615 Jan 30 12:38 load_quizz.php
+-rw-rw-r--  1 serena serena 1564 Jan 30 13:23 send_notification.php
+-rw-rw-r--  1 serena serena 3380 Jan 30 12:59 submit_quizz.php
+-rw-rw-r--  1 serena serena 3295 Jan 30 13:21 sync_progress.php
+-rw-rw-r--  1 serena serena 3516 Jan 30 13:55 track_progress.php
+-rw-rw-r--  1 serena serena 1447 Jan 30 12:38 unlock_badge.php
+
+./public/assets:
+total 20
+drwxrwxr-x  5 serena serena 4096 Jan 28 17:43 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:43 fonts
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:43 icons
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:43 images
+
+./public/assets/fonts:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:43 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:43 ..
+
+./public/assets/icons:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:43 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:43 ..
+
+./public/assets/images:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:43 .
+drwxrwxr-x 5 serena serena 4096 Jan 28 17:43 ..
+
+./public/audio:
+total 16
+drwxrwxr-x  4 serena serena 4096 Feb  5 09:45 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:41 chapters
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:41 uploads
+
+./public/audio/chapters:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:41 .
+drwxrwxr-x 4 serena serena 4096 Feb  5 09:45 ..
+
+./public/audio/uploads:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 17:41 .
+drwxrwxr-x 4 serena serena 4096 Feb  5 09:45 ..
+
+./public/certificates:
+total 8
+drwxr-xr-x  2 serena serena 4096 Jan 30 13:36 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena    0 Jan 30 13:36 .gitkeep
+
+./public/css:
+total 96
+drwxrwxr-x  2 serena serena  4096 Jan 29 00:22 .
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena     0 Jan 28 17:42 admin.css
+-rw-rw-r--  1 serena serena     0 Jan 28 17:41 darkmode.css
+-rw-rw-r--  1 serena serena  9746 Jan 30 02:00 dashboard.css
+-rw-rw-r--  1 serena serena 73952 Feb  2 23:16 style.css
+
+./public/includes:
+total 28
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:58 .
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena 11026 Feb  2 11:09 account_switcher.php
+-rw-rw-r--  1 serena serena     0 Jan 28 17:44 auth_check.php
+-rw-rw-r--  1 serena serena   713 Feb  2 01:31 db_check.php
+-rw-rw-r--  1 serena serena     0 Jan 28 17:44 footer.php
+-rw-rw-r--  1 serena serena     0 Jan 28 17:44 header.php
+-rw-rw-r--  1 serena serena   972 Feb  2 22:58 switch_indicator.php
+
+./public/js:
+total 20
+drwxrwxr-x  2 serena serena 4096 Feb  1 17:10 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena 5841 Jan 30 01:53 audio-tracker.js
+-rw-rw-r--  1 serena serena    0 Jan 28 17:42 darkmode-toggle.js
+-rw-rw-r--  1 serena serena    0 Jan 28 17:43 dashboard.js
+-rw-rw-r--  1 serena serena 3852 Feb  1 17:10 typewriter.js
+
+./public/parent:
+total 76
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:08 .
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena 10371 Feb  2 23:05 add_child.php
+-rw-rw-r--  1 serena serena  7452 Feb  2 22:58 dashboard.php
+-rw-rw-r--  1 serena serena 22402 Feb  2 22:08 settings.php
+-rw-rw-r--  1 serena serena 21570 Feb  2 23:06 view_student.php
+
+./public/student:
+total 40
+drwxrwxr-x  2 serena serena  4096 Feb  2 22:08 .
+drwxrwxr-x 13 serena serena  4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena  8183 Feb  2 22:08 certificates.php
+-rw-rw-r--  1 serena serena 21512 Feb  2 22:08 dashboard.php
+-rw-rw-r--  1 serena serena     0 Jan 28 18:05 my_courses.php
+-rw-rw-r--  1 serena serena     0 Jan 28 18:06 progress.php
+
+./public/teacher:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 17:59 .
+drwxrwxr-x 13 serena serena 4096 Feb  3 23:10 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 17:59 create_quiz.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:58 dashboard.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:58 my_students.php
+-rw-rw-r--  1 serena serena    0 Jan 28 17:58 upload_audio.php
+
+./school:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:49 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 18:09 dashboard.php
+-rw-rw-r--  1 serena serena    0 Jan 28 23:49 manage_licences.php
+-rw-rw-r--  1 serena serena    0 Jan 28 23:49 school_analytics.php
+
+./scripts:
+total 12
+drwxrwxr-x  2 serena serena 4096 Jan 30 17:55 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+-rw-rw-r--  1 serena serena    0 Jan 28 23:52 backup.sh
+-rw-rw-r--  1 serena serena  932 Jan 30 17:49 generate_pwa_icons_fixed.php
+-rw-rw-r--  1 serena serena    0 Jan 28 23:52 import_audio.py
+-rw-rw-r--  1 serena serena    0 Jan 28 23:52 migration.sql
+
+./tests:
+total 16
+drwxrwxr-x  4 serena serena 4096 Jan 28 23:51 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:51 integration
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:51 unit
+
+./tests/integration:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 23:51 .
+drwxrwxr-x 4 serena serena 4096 Jan 28 23:51 ..
+
+./tests/unit:
+total 8
+drwxrwxr-x 2 serena serena 4096 Jan 28 23:51 .
+drwxrwxr-x 4 serena serena 4096 Jan 28 23:51 ..
+
+./vendor:
+total 8
+drwxrwxr-x  2 serena serena 4096 Jan 28 23:49 .
+drwxrwxr-x 13 serena serena 4096 Feb  5 12:45 ..

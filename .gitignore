@@ -1,0 +1,37 @@
+# Fichiers sensibles
+private/db_connection.php
+.env
+*.env
+
+# Logs
+logs/*.log
+*.log
+
+# Uploads
+public/audio/uploads/*
+public/certificates/*
+!public/audio/uploads/.gitkeep
+!public/certificates/.gitkeep
+
+# Cache
+.cache/
+cache/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+*.temp
+*~
+
+# Vendor
+vendor/
+node_modules/

@@ -1,0 +1,616 @@
+/*Google Font 'Poppins'*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+/* Couleurs principales */
+:root {
+  --primary-color: #1E3A8A; /* Bleu foncé */
+  --secondary-color: #F97316; /* Orange vif */
+  --neutral-color: #E5E7EB; /* Gris clair */
+  --text-color: #333; /* Texte gris foncé */
+}
+
+/* Styles généraux */
+body {
+  background-color: var(--neutral-color);
+  color: var(--text-color);
+}
+
+header {
+  background: var(--primary-color);
+  color: white;
+}
+
+header .btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+  background-color: #FF5722; /* Rouge vif */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.dropdown-menu a {
+  color: var(--primary-color);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid var(--neutral-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-card .card-icon {
+  color: var(--primary-color);
+}
+
+.category-card:hover .card-icon {
+  color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer .social-icons a:hover {
+  color: var(--secondary-color);
+}
+/* Flèche de retour vers le haut */
+#backToTop {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+}
+
+/* Ajustement en mode responsive */
+@media (max-width: 768px) {
+  #backToTop {
+      bottom: 15px;
+      right: 15px;
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+  }
+}
+
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Gris clair */
+    color: #333; /* Texte gris foncé */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 120px 200px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  header .btn {
+    background-color: #007bff; /* Bleu vif */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  header .btn:hover {
+    background-color: #ff416c; /* Rose vif */
+  }
+
+.navbar{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)!important;
+}
+.navbar-toggler-icon{
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* Styles pour le menu dropdown */
+.dropdown-menu a {
+    text-decoration: none !important; /* Supprime le soulignement */
+    transition: all 0.3s ease-in-out; /* Ajoute une transition fluide */
+    padding: 8px 15px;
+    display: block;
+    color: #007bff; /* Bleu vif */
+    
+}
+
+.dropdown-menu a:hover {
+    background-color: #ff416c; /* Rose vif */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Assurer la transition en mode responsive */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        transition: all 0.3s ease-in-out;
+    }
+    .dropdown-menu a {
+        text-decoration: none !important; /* Supprime le soulignement */
+        transition: all 0.3s ease-in-out; /* Ajoute une transition fluide */
+        padding: 6px 10px;
+        display: block;
+        color: dark;
+        
+    }
+}
+
+/* Styles pour la galerie d'images */
+.gallery{
+
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 0 25px;
+}
+.category-card img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.category-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+.category-card .card-body{
+    text-align: center;
+    padding: 15px;
+
+}
+.category-card .card-title{
+font-size: 18px;
+font-weight: bold;
+margin: 0;
+color: #333;
+
+
+
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons a:hover {
+    color: var(--primary-color);
+  }
+/* Animation au survol */
+.card-link:hover .category-card {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+
+  @media (max-width: 767px) {
+    .gallery .col-lg-4 {
+        flex: 0 0 calc(50% - 20px); /* 2 colonnes sur mobile */
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery .col-lg-4 {
+        flex: 0 0 100%; /* 1 colonne sur très petits écrans */
+        margin: 10px 0;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px; /* Réduit l'espace dans l'en-tête */
+    }
+
+    .gallery {
+        padding: 0 15px; /* Réduit les marges latérales */
+    }
+
+    footer {
+        padding: 15px 0; /* Réduit l'espace dans le footer */
+    }
+}
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin: 08px auto;
+    }
+
+    .dropdown-menu {
+        width: 100%; /* S'étend sur toute la largeur */
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Réduit la taille du titre */
+    }
+
+    header p {
+        font-size: 1rem; /* Réduit la taille du sous-titre */
+    }
+
+    .card-title {
+        font-size: 16px; /* Réduit la taille des titres des cartes */
+    }
+}
+
+/*Images adaptatives*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Animation sur le texte */
+h5 {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+}
+h5::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+h5:hover::after {
+    transform: scaleX(1);
+}
+
+/* Apparition progressive */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-in {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Apparition progressive */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInScroll {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* Apparition progressive */
+@keyframes fadeInScroll {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 1000;
+  /* Supprimez display: block pour permettre à Bootstrap de gérer l'affichage */
+}
+
+/* Styles pour les cartes des niches */
+.category-card {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-card .card-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.category-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.category-card .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Animation au survol */
+.category-card:hover .card-icon {
+  color: #ff416c;
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.category-card:nth-child(1) {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+
+.category-card:nth-child(2) {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style de base pour TOUTES les catégories */
+.category-template {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.category-title {
+  font-size: 2.8rem;
+  background: linear-gradient(45deg, #1DB954, #191414);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgb(42, 94, 172);
+  margin-bottom: 1rem;
+}
+
+/* Cartes Podcast - Style Commun */
+.podcast-card {
+  background: rgb(231, 225, 225);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.podcast-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+}
+
+/* Couleurs par Catégorie */
+[data-category="Humour"] .category-title { 
+  background: linear-gradient(45deg, #FF9A8B, #FF6B95);
+}
+[data-category="Motivation"] .category-title {
+  background: linear-gradient(45deg, #4FACFE, #00F2FE);
+}
+[data-category="Bien-être"] .category-title {
+  background: linear-gradient(45deg, #6A85B6, #BAC8E0);
+}
+[data-category="Musique"] .category-title {
+  background: linear-gradient(45deg, #191a1b, #b41bcf);
+}
+[data-category="Spiritualité"] .category-title {
+  background: linear-gradient(45deg, #2858b1, #5d9e9e);
+}
+[data-category="Éducation et apprentissage"] .category-title {
+  background: linear-gradient(45deg, #1d54bb, #d5bae0);
+}
+[data-category="Développement personnel"] .category-title {
+  background: linear-gradient(45deg, #6ab68a, #747e8f);
+}
+[data-category="Confessions anonymes"] .category-title {
+  background: linear-gradient(45deg, #202020, #13346d);
+}
+[data-category="Freelance"] .category-title {
+  background: linear-gradient(45deg, #bacbeb, #e0baba);
+}
+/* Player Adaptatif */
+.spotify-player {
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(117, 102, 102, 0.1);
+}
+
+.podcast-card {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+.merci-container {
+  animation: fadeInUp 0.8s ease;
+}
+.wave {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  animation: waveAnim 2s infinite;
+  display: inline-block;
+}
+
+@keyframes waveAnim {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(14deg); }
+  50% { transform: rotate(-8deg); }
+  75% { transform: rotate(14deg); }
+}
+
+
+
+.dark-toggle {
+  position: fixed;
+  top: -5px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #ffffffaa;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dark-toggle:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
