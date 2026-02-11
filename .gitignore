@@ -35,3 +35,4 @@ desktop.ini
 # Vendor
 vendor/
 node_modules/
+private/db_connection.php

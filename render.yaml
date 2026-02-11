@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: WaveTalk_Edu
+    runtime: docker
+    plan: free
+
+databases:
+  - name: WaveTalk_DB
+    databaseName:  WaveTalk_Edu
+    plan: free
